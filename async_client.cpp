@@ -23,7 +23,7 @@ void start_write(std::shared_ptr<asio::ip::tcp::socket> socket)
 int main()
 {
 	std::string server_ip;
-	std::cout << "Enter server IP address: ";
+	std::cout << "Enter server IP address:(127.0.0.1 for local host) ";
 	std::getline(std::cin, server_ip);
 
 	asio::ip::tcp::resolver resolver(io);
