@@ -1,6 +1,6 @@
 # Asio Async TCP Chat
 
-This is a simple asynchronous TCP chat application using [Asio](https://think-async.com/) and C++. It includes both a client and server using `asio::async_read_some` and `asio::async_write`.
+This is a simple asynchronous TCP application that allows the client to send messages to the server using [Asio](https://think-async.com/) and C++. It includes both a client and server using `asio::async_read_some` and `asio::async_write`.
 
 ## 🔧 Requirements
 
